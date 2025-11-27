@@ -213,7 +213,7 @@ async function play(inReq, _outResp) {
     const id = inReq.body.id; 
 
     const parseApi = "https://tt.666888.club/vip_parse.php?key=29f8f6fec2e6&url=";
-	const parseApi = "http://jx.dedyn.io/?url=";
+	const parseApi2 = "http://jx.dedyn.io/?url=";
     const targetUrl = parseApi + encodeURIComponent(id);
 
     try {
