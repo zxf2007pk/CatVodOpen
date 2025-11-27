@@ -214,7 +214,7 @@ async function play(inReq, _outResp) {
     
     // 务必在此处填入你的 VIP 解析接口地址
     const parseApi = "https://tt.666888.club/vip_parse.php?key=29f8f6fec2e6&url=";
-	const parseApi = "http://jx.dedyn.io/?url=";
+	const parseApi2 = "http://jx.dedyn.io/?url=";
     const targetUrl = parseApi + id; // 腾讯通常直接拼接完整URL即可
 
     try {
@@ -393,4 +393,5 @@ export default {
         fastify.get('/test', test);
     },
 };
+
 
