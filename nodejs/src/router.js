@@ -3,9 +3,15 @@ import live from './spider/video/live.js';
 import wogg from './spider/video/wogg.js';
 import mogg from './spider/video/mogg.js';
 import duoduo from './spider/video/duoduo.js';
-import xiaomi from './spider/video/xiaomi.js';
-import ouge from './spider/video/ouge.js';
 import zhizhen from './spider/video/zhizhen.js';
+import ouge from './spider/video/ouge.js';
+import qq from './spider/video/qq.js';
+import iqiyi from './spider/video/iqiyi.js';
+import jianpian from './spider/video/jianpian.js';
+import symx from './spider/video/symx.js';
+import jieyingshi from './spider/video/jieyingshi.js';
+import syjc from './spider/video/syjc.js';
+import fenmei_live from './spider/video/fenmei_live.js';
 import ikanbot from './spider/video/ikanbot.js';
 import cntv from './spider/video/cntv.js';
 import huya from './spider/video/huya.js';
@@ -28,8 +34,7 @@ import baozimh from './spider/book/baozimh.js';
 import coco from './spider/book/coco.js';
 
 
-
-const spiders = [douban,live,wogg,mogg,duoduo,ouge,zhizhen,ikanbot,cntv,huya,douyu,bili,_360ba,m3u8cj,appys,push, baseset, alist, _13bqg, laobaigs,ts230,bookan, copymanga,bg,fengche,baozimh,coco];
+const spiders = [douban,live,wogg,mogg,duoduo,ouge,zhizhen,qq,iqiyi,jianpian,symx,jieyingshi,syjc,fenmei_live,ikanbot,cntv,huya,douyu,bili,_360ba,m3u8cj,appys,push, baseset, alist, _13bqg, laobaigs,ts230,bookan, copymanga,bg,fengche,baozimh,coco];
 const spiderPrefix = '/spider';
 
 
