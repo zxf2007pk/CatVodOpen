@@ -4,7 +4,7 @@ import { ua, init as _init ,detail as _detail ,proxy ,play } from '../../util/pa
 import { load } from 'cheerio';
 import dayjs from 'dayjs';
 
-let url = '';
+let url = 'https://wogg.xxooo.cf';
 
 async function request(reqUrl) {
     const res = await req.get(reqUrl, {
