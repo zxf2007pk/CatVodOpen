@@ -3,7 +3,7 @@ import { load } from 'cheerio';
 import { ua, init ,detail as _detail ,proxy ,play ,test } from '../../util/pan.js';
 import dayjs from 'dayjs';
 
-let url = 'http://123.666291.xyz';
+let url = 'http://666.666291.xyz';
 async function request(reqUrl) {
     const resp = await req.get(reqUrl, {
         headers: {
